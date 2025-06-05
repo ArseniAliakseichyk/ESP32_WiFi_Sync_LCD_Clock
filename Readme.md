@@ -13,7 +13,7 @@ It gets time from the **internet (NTP)** and shows it on the screen.
 - **Smart Sync**
   - Time updates when the clock starts
   - Time sync every 30 minutes
-  - Default time zone is UTC+3 (Moscow)
+  - Default time zone is UTC+2 (PL)
 
 - **Good Display**
   - Only changes numbers that need to update
@@ -33,18 +33,6 @@ It gets time from the **internet (NTP)** and shows it on the screen.
 | Accuracy             | ±1 second/month     |
 | Power (active)       | 80 mA               |
 | Power (sleep)        | < 100 µA            |
-
-## 📌 Wiring
-
-| ESP32 GPIO | LCD Pin         |
-|------------|------------------|
-| GPIO4      | MOSI (Din)       |
-| GPIO5      | CLK (Sclk)       |
-| GPIO6      | CS (Chip Select) |
-| GPIO7      | DC (Data/Command)|
-| GPIO8      | RST (Reset)      |
-| 3.3V       | VCC              |
-| GND        | GND              |
 
 ## 🛠️ Setup
 
